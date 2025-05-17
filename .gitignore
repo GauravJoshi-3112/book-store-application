@@ -1,0 +1,46 @@
+# Maven / target folders
+**/target/
+!*/src/main/resources/
+!*/src/test/resources/
+
+# Eclipse / STS
+.project
+.classpath
+.settings/
+.springBeans
+
+# IntelliJ IDEA
+.idea/
+*.iml
+*.iws
+out/
+
+# VS Code
+.vscode/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Temporary files
+*.tmp
+*.temp
+*.swp
+
+# Maven wrapper files
+.mvn/wrapper/maven-wrapper.jar
+
+# Spring Boot specific
+spring-boot-app.log
+
+# Testcontainers data (optional)
+testcontainers/
+
+# Node modules if any frontend in project
+node_modules/
+
+# dotenv environment files (if any)
+.env
