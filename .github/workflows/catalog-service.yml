@@ -2,8 +2,6 @@ name: Catalog Service
 
 on:
   push:
-    paths:
-      - catalog-service/**wq
     branches:
       - 'master'
   pull_request:
@@ -15,7 +13,7 @@ jobs:
     runs-on: ubuntu-latest
     env:
       working-directory: ./catalog-service
-      DOCKER_IMAGE_NAME: ${{ secrets.DOCKERHUB_USERNAME }}/bookstore-catalog-service
+      DOCKER_IMAGE_NAME: ${{ secrets.DOCKERHUB_USERNAME }}/catalog-service
     defaults:
       run:
         working-directory: ${{ env.working-directory }}

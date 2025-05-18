@@ -5,7 +5,7 @@
 	https://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
     <groupId>com.bookstore</groupId>
-    <artifactId>spring-boot-microservices</artifactId>
+    <artifactId>book-store-application</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <packaging>pom</packaging>
     <name>book-store-application</name>
